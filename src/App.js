@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Cards />} />
+        <Route exact path="/redux-cart/" element={<Cards />} />
         <Route path="/cart/:id" element={<CardDetails />} />
       </Routes>
     </div>

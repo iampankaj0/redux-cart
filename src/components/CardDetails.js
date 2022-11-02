@@ -26,7 +26,7 @@ const CardDetails = () => {
   const dispatch = useDispatch();
   const deleteItemFromCart = (id) => {
     dispatch(RemoveItem(id));
-    history("/");
+    history("/redux-cart/");
   };
 
   const addCart = (e) => {

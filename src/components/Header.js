@@ -50,11 +50,11 @@ const Header = () => {
         style={{ height: "60px" }}
       >
         <Container>
-          <NavLink to="/" className="me-2 text-decoration-none text-light">
+          <NavLink to="/redux-cart/" className="me-2 text-decoration-none text-light">
             Old Rao Hotel
           </NavLink>
           <Nav className="me-auto">
-            <NavLink to="/" className="me-2 text-decoration-none text-light">
+            <NavLink to="/redux-cart/" className="me-2 text-decoration-none text-light">
               Home
             </NavLink>
             {/* <Nav.Link href="#3">Break Fast</Nav.Link>
